@@ -1,0 +1,22 @@
+export XDG_CONFIG_HOME="$HOME/.config"
+export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+export PATH="${PATH}:$HOME/scripts"
+
+export EDITOR="nvim"
+export TERM="st"
+export TERMINAL="st"
+export BROWSER="firefox"
+export CM_SELECTIONS="clipboard"
+export GTK_THEME="Gruvbox-Dark"
+export STATUSBAR="dwmblocks"
+
+export LESS="R --use-color -Dd+r -Du+b"
+export LESS_TERMCAP_mb="$(printf '%b' '[1;31m')"
+export LESS_TERMCAP_md="$(printf '%b' '[1;36m')"
+export LESS_TERMCAP_me="$(printf '%b' '[0m')"
+export LESS_TERMCAP_so="$(printf '%b' '[01;44;33m')"
+export LESS_TERMCAP_se="$(printf '%b' '[0m')"
+export LESS_TERMCAP_us="$(printf '%b' '[1;32m')"
+export LESS_TERMCAP_ue="$(printf '%b' '[0m')"
+export MANPAGER="sh -c 'sed -u -e \"s/\\x1B\[[0-9;]*m//g; s/.\\x08//g\" | bat -p -lman'"
+
